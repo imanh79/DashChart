@@ -7,7 +7,7 @@ const Listmenu = ({ svgurl }: any) => {
   return (
     <div className=" relative ">
       {hover && (
-        <span className="absolute h-12 w-[2px] bg-[#2AB1A1] -right-10 top-1 rounded-xl duration-500 shadow-[#2AB1A1_0px_50px_100px_3px]"></span>
+        <span className="absolute h-12 w-[2px] bg-[#2AB1A1] -right-10 top-0.5 rounded-xl duration-500 shadow-[#2AB1A1_0px_50px_100px_3px]"></span>
       )}{" "}
       <Button
         variant={"ghost"}
