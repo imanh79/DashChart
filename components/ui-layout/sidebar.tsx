@@ -20,7 +20,7 @@ const Sidebar = () => {
       <div className="from-[#4FD2C2] to-[#25AD9C] bg-gradient-to-b min-w-[70px] min-h-[70px] flex justify-center items-center rounded-md">
         {Logo}
       </div>
-      <div className="flex flex-col gap-5 mt-10">
+      <div className="flex flex-col gap-5 mt-8">
         <Listmenu svgurl={HomeIcon} />
         <Listmenu svgurl={HistogramIcon} />
         <Listmenu svgurl={PiechartIcon} />
@@ -28,7 +28,7 @@ const Sidebar = () => {
         <Listmenu svgurl={OptionIcon} />
         <Listmenu svgurl={FolderIcon} />
       </div>
-      <div className="flex flex-col gap-4 mt-28 ">
+      <div className="flex flex-col gap-4 mt-14 ">
         {" "}
         <Listmenu svgurl={SettingIcon} />
         <Listmenu svgurl={LogoutIcon} />

@@ -86,7 +86,7 @@ const Linechart2 = () => {
       <Line
         data={data}
         options={config}
-        className="px-4  xl:!w-11/12 xl:!h-[190px] xl:mx-auto mt-4"
+        className="px-4  xl:!w-11/12 xl:!h-[150px] xl:mx-auto mt-4"
       />
     </div>
   );

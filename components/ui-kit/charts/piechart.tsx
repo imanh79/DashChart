@@ -40,7 +40,7 @@ const Piechart = () => {
   return (
     <div className="w-full flex flex-col items-center  mx-auto  ">
       <Titlechart title={`Projects`} value={true} />
-      <div className="w-44 h-44 relative mb-4">
+      <div className="w-40 h-40 relative mb-4">
         <Doughnut data={data} options={config} className="" />
         <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
           20%

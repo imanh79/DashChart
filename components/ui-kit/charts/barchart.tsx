@@ -63,7 +63,7 @@ const Barchart = () => {
         data={data}
         options={options}
         className="
-px-4   xl:!w-11/12 xl:!h-[240px] xl:mx-auto  mt-4"
+px-4   xl:!w-11/12 xl:!h-[200px] xl:mx-auto  mt-4"
       />
     </div>
   );
