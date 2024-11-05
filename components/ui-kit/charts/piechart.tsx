@@ -4,7 +4,7 @@ import { Doughnut, Pie } from "react-chartjs-2";
 import Titlechart from "../titlechart";
 import Averagechart from "../averagechart";
 
-// داده‌های تصادفی و رنگ‌ها
+
 const data = {
   labels: ["Red", "Blue", "Yellow"],
   datasets: [

@@ -22,7 +22,7 @@ ChartJS.register(
   Tooltip
 );
 
-// تعریف داده‌ها و برچسب‌ها
+
 const labels = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"];
 const data = {
   labels: labels,
